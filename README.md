@@ -10,9 +10,9 @@ tag 格式:
 
 support:
 
-- [`7.4-alpine-v3.9-swoole-*`, `7.4-alpine-v3.9-swoole`](https://github.com/hyperf-cloud/hyperf-docker/blob/master/7.4/alpine/swoole/Dockerfile)
-- [`7.4-alpine-v3.9-swow-*`, `7.4-alpine-v3.9-swow`](https://github.com/hyperf-cloud/hyperf-docker/blob/master/7.4/alpine/swoole/Dockerfile)
-- [`7.4-alpine-v3.9-base`](https://github.com/hyperf-cloud/hyperf-docker/blob/master/7.4/alpine/base/Dockerfile)
+- [`7.4-alpine-v3.9-swoole-*`, `7.4-alpine-v3.9-swoole`](https://github.com/mochat-cloud/mochat-docker/blob/master/7.4/alpine/swoole/Dockerfile)
+- [`7.4-alpine-v3.9-swow-*`, `7.4-alpine-v3.9-swow`](https://github.com/mochat-cloud/mochat-docker/blob/master/7.4/alpine/swoole/Dockerfile)
+- [`7.4-alpine-v3.9-base`](https://github.com/mochat-cloud/mochat-docker/blob/master/7.4/alpine/base/Dockerfile)
 
 # 参考文档
 
