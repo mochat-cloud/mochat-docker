@@ -21,7 +21,7 @@ support:
 
 # 如何使用此镜像
 
-Added [Dockerfile](https://github.com/hyperf-cloud/hyperf-docker/blob/master/Dockerfile) to your project.
+将 [Dockerfile](https://github.com/mochat-cloud/mochat-docker/blob/master/Dockerfile) 放到你的项目中.
 
 # 如何build以及推送镜像
 
