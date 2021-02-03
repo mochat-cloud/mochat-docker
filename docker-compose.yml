@@ -1,0 +1,41 @@
+# syntax version.
+version: "3.7"
+
+# services list.
+services:
+  # base image
+  alpine-base:
+    image: "mochat/mochat:${PHP_VERSION}-alpine-v${ALPINE_VERSION}-base"
+    build:
+      context: "${PHP_VERSION}/alpine/base"
+      args:
+        ALPINE_VERSION: ${ALPINE_VERSION}
+
+  # swoole image
+  alpine-swoole:
+    image: "mochat/mochat:${PHP_VERSION}-alpine-v${ALPINE_VERSION}-swoole-${SW_VERSION}"
+    build:
+      context: "${PHP_VERSION}/alpine/swoole"
+      args:
+        ALPINE_VERSION: ${ALPINE_VERSION}
+        SW_VERSION: ${SW_VERSION}
+        COMPOSER_VERSION: ${COMPOSER_VERSION}
+
+  # swow image
+  alpine-swow:
+    image: "mochat/mochat:${PHP_VERSION}-alpine-v${ALPINE_VERSION}-swow-${SW_VERSION}"
+    build:
+      context: "${PHP_VERSION}/alpine/swow"
+      args:
+        ALPINE_VERSION: ${ALPINE_VERSION}
+        SW_VERSION: ${SW_VERSION}
+        COMPOSER_VERSION: ${COMPOSER_VERSION}
+
+  # dev image
+  alpine-dev:
+    image: "mochat/mochat:${PHP_VERSION}-alpine-v${ALPINE_VERSION}-dev"
+    build:
+      context: "${PHP_VERSION}/alpine/dev"
+      args:
+        ALPINE_VERSION: ${ALPINE_VERSION}
+        COMPOSER_VERSION: ${COMPOSER_VERSION}
